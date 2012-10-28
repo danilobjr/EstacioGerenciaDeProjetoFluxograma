@@ -1,0 +1,39 @@
+@-webkit-keyframes explicacao-conjunto {
+    0% { opacity: 0; left: 100px; }
+    15% { opacity: 1; left: 20px; }    
+    90% { opacity: 1; left: 20px; }
+    95% { opacity: 0; }
+    100% { left: -60px; }
+} 
+
+@-webkit-keyframes explicacao-simbolos {
+    0% { opacity: 0; left: 100px; }
+    15% { opacity: 1; left: 20px; }    
+    90% { opacity: 1; left: 20px; }
+    95% { opacity: 0; }
+    100% { left: -60px; }
+} 
+
+@-webkit-keyframes explicacao-interligados {
+    0% { opacity: 0; left: 100px; }
+    15% { opacity: 1; left: 20px; }    
+    90% { opacity: 1; left: 20px; }
+    95% { opacity: 0; }
+    100% { left: -60px; }
+} 
+
+@-webkit-keyframes explicacao-sequencia-logica {
+    0% { opacity: 0; left: 100px; }
+    15% { opacity: 1; left: 20px; }    
+    90% { opacity: 1; left: 20px; }
+    95% { opacity: 0; }
+    100% { left: -60px; }
+} 
+
+@-webkit-keyframes explicacao-inicio-fim {
+    0% { opacity: 0; left: 100px; }
+    15% { opacity: 1; left: 20px; }    
+    90% { opacity: 1; left: 20px; }
+    95% { opacity: 0; }
+    100% { left: -60px; }
+} 
