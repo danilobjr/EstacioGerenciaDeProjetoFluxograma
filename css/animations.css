@@ -39,21 +39,21 @@
 } 
 
 @-webkit-keyframes explicacao-simbolos-simbolo-oval {  
-    0% { opacity: 0; left: 520px; top: 80px; -webkit-transform: scale(.95); }
-    7% { opacity: 1; left: 500px; top: 80px; -webkit-transform: scale(1); }
-    47% { opacity: 1; left: 500px; top: 80px; -webkit-transform: scale(1); }
-    57% { opacity: 1; left: 550px; top: -40px; -webkit-transform: scale(1); }
-    97% { opacity: 1; left: 550px; top: -40px; -webkit-transform: scale(1); }
-    100% { opacity: 0; left: 580px; top: -40px; -webkit-transform: scale(.9); }
+    0% { opacity: 0; left: 540px; top: 80px; -webkit-transform: scale(.95); }
+    7% { opacity: 1; left: 520px; top: 80px; -webkit-transform: scale(1); }
+    47% { opacity: 1; left: 520px; top: 80px; -webkit-transform: scale(1); }
+    57% { opacity: 1; left: 570px; top: -40px; -webkit-transform: scale(1); }
+    97% { opacity: 1; left: 570px; top: -40px; -webkit-transform: scale(1); }
+    100% { opacity: 0; left: 590px; top: -40px; -webkit-transform: scale(.9); }
 }
 
 @-webkit-keyframes explicacao-simbolos-simbolo-retangulo {  
-    0% { opacity: 0; left: 280px; top: 80px; -webkit-transform: scale(.95); }
-    7% { opacity: 1; left: 300px; top: 80px; -webkit-transform: scale(1); }
-    47% { opacity: 1; left: 300px; top: 80px; -webkit-transform: scale(1); }
-    57% { opacity: 1; left: 250px; top: -40px; -webkit-transform: scale(1); }
-    97% {opacity: 1; left: 250px; top: -40px; -webkit-transform: scale(1);}
-    100% {opacity: 0; left: 220px; top: -40px; -webkit-transform: scale(.9);}
+    0% { opacity: 0; left: 300px; top: 80px; -webkit-transform: scale(.95); }
+    7% { opacity: 1; left: 320px; top: 80px; -webkit-transform: scale(1); }
+    47% { opacity: 1; left: 320px; top: 80px; -webkit-transform: scale(1); }
+    57% { opacity: 1; left: 270px; top: -40px; -webkit-transform: scale(1); }
+    97% {opacity: 1; left: 270px; top: -40px; -webkit-transform: scale(1);}
+    100% {opacity: 0; left: 240px; top: -40px; -webkit-transform: scale(.9);}
 }
 
 @-webkit-keyframes explicacao-simbolos-simbolo-losango {  
