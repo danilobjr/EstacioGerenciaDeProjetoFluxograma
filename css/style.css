@@ -178,12 +178,6 @@ blockquote .author {
 #explicacao-sequencia-logica { position: absolute; top: 100px; opacity: 0; }
 #explicacao-inicio-fim { position: absolute; top: 100px; opacity: 0; }*/
 
-.active #explicacao-conjunto { -webkit-animation: explicacao-conjunto 3s ease-out 2s; }
-.active #explicacao-simbolos { -webkit-animation: explicacao-simbolos 3s ease-out 5s; }
-.active #explicacao-interligados { -webkit-animation: explicacao-interligados 3s ease-out 8s; }
-.active #explicacao-sequencia-logica { -webkit-animation: explicacao-sequencia-logica 3s ease-out 11s; }
-.active #explicacao-inicio-fim { -webkit-animation: explicacao-inicio-fim 3s ease-out 14s; }
-
 #explicacao-simbolos-geometricos {position: relative; height: 80px; top: 250px; }
 #explicacao-simbolos-geometricos .simbolo, #explicacao-simbolos-geometricos .linha { top: 0; opacity: 0; }
 #explicacao-simbolos-simbolo-oval { left: 500px; top: 80px !important; height: 70px;}
@@ -218,11 +212,17 @@ blockquote .author {
 #explicacao-diagrama #linha5 {width: 200px; height: 166px;left: 630px;top: 25px; border-right-style: solid; border-top-style: solid;}
 #explicacao-diagrama #linha5 .seta {right: -5.5px;}
 
-.active #explicacao-simbolos-simbolo-oval { -webkit-animation: explicacao-simbolos-simbolo-oval 6s ease-out 5s; }
-.active #explicacao-simbolos-simbolo-retangulo { -webkit-animation: explicacao-simbolos-simbolo-retangulo 6s ease-out 5s; }
-.active #explicacao-simbolos-simbolo-losango {-webkit-animation: explicacao-simbolos-simbolo-losango 6s ease-out 5s;}
+.active #explicacao-conjunto { -webkit-animation: explicacao-conjunto 3s ease-out 1s; }
+/*.active #explicacao-simbolos { -webkit-animation: explicacao-simbolos 3s ease-out 5s; }*/
+.active #explicacao-interligados { -webkit-animation: explicacao-interligados 3s ease-out 4s; }
+.active #explicacao-sequencia-logica { -webkit-animation: explicacao-sequencia-logica 3s ease-out 7s; }
+.active #explicacao-inicio-fim { -webkit-animation: explicacao-inicio-fim 3s ease-out 10s; }
+
+.active #explicacao-simbolos-simbolo-oval { -webkit-animation: explicacao-simbolos-simbolo-oval 5.8s ease-out 1s; }
+.active #explicacao-simbolos-simbolo-retangulo { -webkit-animation: explicacao-simbolos-simbolo-retangulo 5.8s ease-out 1s; }
+.active #explicacao-simbolos-simbolo-losango {-webkit-animation: explicacao-simbolos-simbolo-losango 5.8s ease-out 1s;}
 .active #explicacao-simbolos-simbolo-linha1, 
-.active #explicacao-simbolos-simbolo-linha2 {-webkit-animation: explicacao-simbolos-simbolo-linha 3s ease-out 8s;}
+.active #explicacao-simbolos-simbolo-linha2 {-webkit-animation: explicacao-simbolos-simbolo-linha 2.6s ease-out 4.2s;}
 
 #who-bg { font-size: 91px; }
 #who-bg-desc { font-size: 36px; padding-top: 10px; }
