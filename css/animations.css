@@ -37,3 +37,37 @@
     95% { opacity: 0; }
     100% { left: -60px; }
 } 
+
+@-webkit-keyframes explicacao-simbolos-simbolo-oval {  
+    0% { opacity: 0; left: 520px; top: 80px; -webkit-transform: scale(.95); }
+    7% { opacity: 1; left: 500px; top: 80px; -webkit-transform: scale(1); }
+    45% { opacity: 1; left: 500px; top: 80px; -webkit-transform: scale(1); }
+    55% { opacity: 1; left: 550px; top: -40px; -webkit-transform: scale(1); }
+    97% { opacity: 1; left: 550px; top: -40px; -webkit-transform: scale(1); }
+    100% { opacity: 0; left: 580px; top: -40px; -webkit-transform: scale(.95); }
+}
+
+@-webkit-keyframes explicacao-simbolos-simbolo-retangulo {  
+    0% { opacity: 0; left: 280px; top: 80px; -webkit-transform: scale(.95); }
+    7% { opacity: 1; left: 300px; top: 80px; -webkit-transform: scale(1); }
+    45% { opacity: 1; left: 300px; top: 80px; -webkit-transform: scale(1); }
+    55% { opacity: 1; left: 250px; top: -40px; -webkit-transform: scale(1); }
+    97% {opacity: 1; left: 250px; top: -40px; -webkit-transform: scale(1);}
+    100% {opacity: 0; left: 220px; top: -40px; -webkit-transform: scale(.95);}
+}
+
+@-webkit-keyframes explicacao-simbolos-simbolo-losango {  
+    0% { opacity: 0; top: -80px; -webkit-transform: scale(.95) rotateZ(45deg); }
+    7% { opacity: 1; top: -70px; -webkit-transform: scale(1) rotateZ(45deg); }
+    45% { opacity: 1; top: -70px; -webkit-transform: scale(1) rotateZ(45deg); }
+    55% { opacity: 1; top: 100px; -webkit-transform: scale(1) rotateZ(45deg); }
+    97% {opacity: 1;top: 100px; -webkit-transform: scale(1) rotateZ(45deg);}
+    100% {opacity: 0;top: 130px; -webkit-transform: scale(.95) rotateZ(45deg);}
+}
+
+@-webkit-keyframes explicacao-simbolos-simbolo-linha {  
+    0% { opacity: 0; -webkit-transform: scale(.95); }
+    15% { opacity: 1; -webkit-transform: scale(1); }
+    95% { opacity: 1; -webkit-transform: scale(1); }
+    100% { opacity: 0; -webkit-transform: scale(1.05); }
+}

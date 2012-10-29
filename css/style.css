@@ -103,10 +103,17 @@ blockquote .author {
 .simbolo p { margin: 4px 0 0 0; font-size: 24px; }
 .circulo { border-radius: 50%; }
 .oval {}
-.oval .circulo-inicio { display: block; position: absolute; width: 50px; height: 50px; min-width: 0; top: 0; left: -18px; border-radius: 50%; }
-.oval .circulo-fim { display: block; position: absolute; width: 50px; height: 50px; min-width: 0; top: 0; right: -18px; border-radius: 50%; }
+.oval .circulo-inicio { display: block; position: absolute; width: 50px; height: 50px; min-width: 0; top: 0 !important; left: -18px; border-radius: 50%; }
+.oval .circulo-fim { display: block; position: absolute; width: 50px; height: 50px; min-width: 0; top: 0 !important; right: -18px; border-radius: 50%; }
 .retangulo {}
-.losango {}
+.losango {-webkit-transform: rotateZ(45deg); min-width: 70px;min-height: 70px;}
+.losango p {position: absolute; -webkit-transform: rotateZ(-45deg);}
+.linha {position: absolute; min-width: 150px; border-width: 2px; border-color: #777; }
+.linha p {position: absolute;margin:0;padding: 4px;font-size: 14px;background-color: white;}
+.seta {position: absolute;width: 7px;height: 7px;-webkit-transform: rotateZ(45deg);}
+.seta-cima {border-left: 2px solid #777;border-top: 2px solid #777;}
+.seta-dir {right: 0; border-top: 2px solid #777;border-right: 2px solid #777;}
+.seta-baixo {bottom: 0; border-right: 2px solid #777;border-bottom: 2px solid #777;}
 
 /* COMMON STEP STYLES */
 
@@ -163,6 +170,7 @@ blockquote .author {
 #como-forma { font-size: 40px; padding-bottom: 10px; position: relative; left: 3px; }
 #como-pratica { font-size: 93px; margin-top: 10px; }
 
+#explicacao { height: 600px; }
 .explicacao-text { position: absolute; top: 50px; opacity: 0; }
 /*#explicacao-conjunto { position: absolute; top: 100px; opacity: 0; }
 #explicacao-simbolos { position: absolute; top: 100px; opacity: 0; }
@@ -175,12 +183,46 @@ blockquote .author {
 .active #explicacao-interligados { -webkit-animation: explicacao-interligados 3s ease-out 8s; }
 .active #explicacao-sequencia-logica { -webkit-animation: explicacao-sequencia-logica 3s ease-out 11s; }
 .active #explicacao-inicio-fim { -webkit-animation: explicacao-inicio-fim 3s ease-out 14s; }
-.active #explicacao-diagrama {opacity: 0;}
-.active #explicacao-diagrama-simbolo-inicio {left: 10px; top: 10px;}
-.active #explicacao-diagrama-simbolo-retangulo1 {left: 10px; top: 10px;}
-.active #explicacao-diagrama-simbolo-losango {left: 10px; top: 10px;}
-.active #explicacao-diagrama-simbolo-retangulo2 {left: 10px; top: 10px;}
-.active #explicacao-diagrama-simbolo-fim {left: 10px; top: 10px;}
+
+#explicacao-simbolos-geometricos {position: relative; height: 80px; top: 250px; }
+#explicacao-simbolos-geometricos .simbolo, #explicacao-simbolos-geometricos .linha { top: 0; opacity: 0; }
+#explicacao-simbolos-simbolo-oval { left: 500px; top: 80px !important; height: 70px;}
+#explicacao-simbolos-simbolo-oval .circulo-inicio, #explicacao-simbolos-simbolo-oval .circulo-fim { width: 70px; height: 70px;}
+#explicacao-simbolos-simbolo-oval .circulo-inicio{ left: -32px;}
+#explicacao-simbolos-simbolo-oval .circulo-fim { right: -32px;}
+#explicacao-simbolos-simbolo-retangulo { left: 300px; top: 80px !important; height: 70px;}
+#explicacao-simbolos-simbolo-losango {left: 415px;top: -70px !important;width: 100px;height: 100px;}
+#explicacao-simbolos-simbolo-linha1 {min-width: 0; width: 80px; height: 116px;left: 312px;top: 33px !important; border-left-style: solid;border-top: none;border-bottom-style: solid;}
+#explicacao-simbolos-simbolo-linha1 .seta {left: -5.5px;}
+#explicacao-simbolos-simbolo-linha2 {min-width: 0; width: 80px; height: 116px;left: 536px;top: 33px !important; border-right-style: solid;border-top: none;border-bottom-style: solid;}
+#explicacao-simbolos-simbolo-linha2 .seta {right: -5.5px;}
+#explicacao-diagrama {position: absolute; width: 100%; top: 200px; opacity: 0;}
+#explicacao-diagrama .simbolo, #explicacao-diagrama .linha { top: 0; opacity: 0; }
+#explicacao-diagrama .linha {min-width: 0;}
+#explicacao-diagrama-simbolo-inicio {left: 25px;}
+#explicacao-diagrama-simbolo-retangulo1 {left: 270px; }
+#explicacao-diagrama-simbolo-losango { width: 90px; height: 90px; left: 565px; top: 178px !important; margin-left: -45px;}
+#explicacao-diagrama-simbolo-losango p { left: 0; top: 30%; }
+#explicacao-diagrama-simbolo-retangulo2 {left: 500px;}
+#explicacao-diagrama-simbolo-fim {left: 765px; top: 196px !important;}
+#explicacao-diagrama #linha1 {width: 95px;left: 172px;top: 24px; border-top-style: solid; }
+#explicacao-diagrama #linha1 .seta {top: -5.5px;}
+#explicacao-diagrama #linha2 {width: 162px; height: 173px;left: 335px;top: 49px; border-left-style: solid; border-bottom-style: solid;}
+#explicacao-diagrama #linha2 .seta {bottom: -5.5px;}
+#explicacao-diagrama #linha3 {height: 108px; left: 564px;top: 53px;border-left-style: solid;}
+#explicacao-diagrama #linha3 p {left: -19px;top: 42px;}
+#explicacao-diagrama #linha3 .seta {left: -5.5px;}
+#explicacao-diagrama #linha4 {width: 116px;left: 628px;top: 222px;border-top-style: solid;}
+#explicacao-diagrama #linha4 p {top: -12px;left: 40px;}
+#explicacao-diagrama #linha4 .seta {top: -5.5px;}
+#explicacao-diagrama #linha5 {width: 200px; height: 166px;left: 630px;top: 25px; border-right-style: solid; border-top-style: solid;}
+#explicacao-diagrama #linha5 .seta {right: -5.5px;}
+
+.active #explicacao-simbolos-simbolo-oval { -webkit-animation: explicacao-simbolos-simbolo-oval 6s ease-out 5s; }
+.active #explicacao-simbolos-simbolo-retangulo { -webkit-animation: explicacao-simbolos-simbolo-retangulo 6s ease-out 5s; }
+.active #explicacao-simbolos-simbolo-losango {-webkit-animation: explicacao-simbolos-simbolo-losango 6s ease-out 5s;}
+.active #explicacao-simbolos-simbolo-linha1, 
+.active #explicacao-simbolos-simbolo-linha2 {-webkit-animation: explicacao-simbolos-simbolo-linha 3s ease-out 8s;}
 
 #who-bg { font-size: 91px; }
 #who-bg-desc { font-size: 36px; padding-top: 10px; }
