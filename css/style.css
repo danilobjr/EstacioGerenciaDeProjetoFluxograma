@@ -145,14 +145,14 @@ blockquote .author {
 #title-text1 { font-size: 132px; }
 #title-text2 { font-size: 72px; }
 
-#respond-text1 { font-size: 84px; }
-#respond-text2 { font-size: 202px; }
-#respond-text3 { font-size: 77px; }
+#agenda-2, #agenda-3 {padding: 0;}
 
-#ar-adaptive { font-size: 192px; }
-#ar-adaptive-fixed { font-size: 54px; }
-#ar-responsive { font-size: 153px; }
-#ar-responsive-fluid { font-size: 57px; }
+#agenda-definicao { font-size: 174px; }
+#agenda-explicacao { font-size: 83px; }
+#agenda-simbologia { font-size: 145px; }
+#agenda-exemplo { font-size: 218px; }
+
+#definicao-que {font-size: 202px;}
 
 #combo-text { font-size: 247px; }
 #combo-or { position: relative; left: -20px; }
@@ -163,12 +163,12 @@ blockquote .author {
 #combo-fluid-fixed div .light { font-size: 50px; width: 100%; }
 #combo-fluid .light { letter-spacing: 3px; }
 
-#pronto-e-isso { font-size: 200px; }
-#pronto-ta-entendendo { letter-spacing: 19px; font-size: 47px; position: relative; left: 10px; margin-top: 15px; }
+#pronto-e-isso { font-size: 270px; }
+#pronto-ta-entendendo { letter-spacing: 19px; font-size: 73px; position: relative; left: 10px; margin-top: 15px; }
 #pronto-hein { margin-top: 50px; font-size: 94px; }
 
-#como-forma { font-size: 40px; padding-bottom: 10px; position: relative; left: 3px; }
-#como-pratica { font-size: 93px; margin-top: 10px; }
+#como-forma { font-size: 69px; padding-bottom: 10px; position: relative; left: 3px; }
+#como-pratica { font-size: 181px; margin-top: 10px; }
 
 #explicacao { height: 600px; }
 .explicacao-text { position: absolute; width: 960px; top: 50px; text-align: center; opacity: 0; }
@@ -206,9 +206,10 @@ blockquote .author {
 #explicacao-diagrama .linha4 .seta {top: -5.5px;}
 #explicacao-diagrama .linha5 {width: 200px; height: 166px;left: 650px;top: 25px; border-right-style: solid; border-top-style: solid;}
 #explicacao-diagrama .linha5 .seta {right: -5.5px;}
+#explicacao-aprofundar { font-size: 74px; }
+#explicacao-aprofundar a { font-size: 60px; }
 
 .active #explicacao-conjunto { -webkit-animation: explicacao-conjunto 3s ease-out 1s; }
-/*.active #explicacao-simbolos { -webkit-animation: explicacao-simbolos 3s ease-out 5s; }*/
 .active #explicacao-interligados { -webkit-animation: explicacao-interligados 3s ease-out 4s; }
 .active #explicacao-sequencia-logica { -webkit-animation: explicacao-sequencia-logica 3s ease-out 7s; }
 
@@ -231,6 +232,7 @@ blockquote .author {
 .active #explicacao-diagrama .linha4 {-webkit-animation: explicacao-diagrama-simbolo-linha4 4.2s ease-out 10.3s;}
 .active #explicacao-diagrama .linha5 {-webkit-animation: explicacao-diagrama-simbolo-linha5 4.2s ease-out 10.4s;}
 
+#simbologia-titulo {font-size: 146px;}
 #who-bg { font-size: 91px; }
 #who-bg-desc { font-size: 36px; padding-top: 10px; }
 #who-obama { font-size: 102px; }
@@ -239,8 +241,6 @@ blockquote .author {
 #who-greygoose-desc { font-size: 25px; padding-top: 10px; margin-left: 8px; }
 #who-cac { font-size: 80px; }
 #who-cac-desc { font-size: 35px; padding-top: 10px; }
-#who-more { font-size: 90px; }
-#who-more a { font-size: 60px; }
 
 #when-things div { font-size: 87px; }
 #when-thing1, #when-thing2, #when-thing1, #when-thing1 { position: relative; padding: 0; }
