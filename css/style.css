@@ -233,22 +233,32 @@ blockquote .author {
 .active #explicacao-diagrama .linha5 {-webkit-animation: explicacao-diagrama-simbolo-linha5 4.2s ease-out 10.4s;}
 
 #simbologia-titulo {font-size: 146px;}
-#who-bg { font-size: 91px; }
-#who-bg-desc { font-size: 36px; padding-top: 10px; }
-#who-obama { font-size: 102px; }
-#who-obama-desc { font-size: 20px; padding-top: 10px; }
-#who-greygoose { font-size: 88px; }
-#who-greygoose-desc { font-size: 25px; padding-top: 10px; margin-left: 8px; }
-#who-cac { font-size: 80px; }
-#who-cac-desc { font-size: 35px; padding-top: 10px; }
+#simbologia-oval-figura {position: relative;width: 270px;height: 120px;left: 50%;margin-left: -145px;}
+#simbologia-oval-figura .simbolo {height: 120px;width: 120px;}
+#simbologia-oval-figura .circulo-inicio {left: -60px;} 
+#simbologia-oval-figura .circulo-fim {right: -60px;}
+#simbologia-oval-titulo { margin-top: 100px; font-size: 91px; }
+#simbologia-oval-definicao { font-size: 30px; padding-top: 10px; }
+#simbologia-retangulo-figura {position: relative;width: 270px;height: 120px;left: 50%;margin-left: -145px;}
+#simbologia-retangulo-titulo { margin-top: 100px; font-size: 102px; }
+#simbologia-retangulo-definicao { font-size: 46px; padding-top: 10px; }
+#simbologia-losango-figura {position: relative;width: 180px;height: 180px;left: 50%;margin-left: -98px;}
+#simbologia-losango-titulo { margin-top: 100px; font-size: 88px; }
+#simbologia-losango-definicao { font-size: 25px; padding-top: 10px; }
+#simbologia-linha-figura {position:relative; width:240px; left:50%; margin-left:-120px; border-top: 6px solid #777;}
+#simbologia-linha-figura .seta { top: -9.5px; border-width: 6px; border-color:#777; }
+#simbologia-linha-titulo { margin-top: 100px; font-size: 88px; }
+#simbologia-linha-definicao { font-size: 35px; padding-top: 10px; }
 
+/*
 #when-things div { font-size: 87px; }
 #when-thing1, #when-thing2, #when-thing1, #when-thing1 { position: relative; padding: 0; }
 #when-thing1 { left: 20px; font-size: 124px; }
 #when-thing2 { left: 10px; font-size: 93px; letter-spacing: 0; }
 #when-thing3 { font-size: 120px; }
 #when-thing4 { font-size: 190px; }
-
+    */
+#exemplo {font-size: 200px;}
 #how-quote blockquote { text-align: center; font-size: 70px; line-height: 1.2; }
 #how-frameworks-text { font-size: 129px; line-height: .9; }
 #how-frameworks span { font-weight: 800; font-size: 45px; display: block; }
