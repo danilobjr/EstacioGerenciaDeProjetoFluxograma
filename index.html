@@ -16,7 +16,7 @@
 
 	<div class="background"></div>
 	
-	<div id="hint">Uma apresentação feita com <a href="http://bartaz.github.com/impress.js/">impress.js</a> por <a href="http://twitter.com/danilojrr">Danilo Jr.</a>
+	<div id="hint">Uma apresentação feita com <a href="http://bartaz.github.com/impress.js/">impress.js</a> por <a href="http://twitter.com/danilojrr">@DaniloJrr</a>
 		- use a barra de espaço ou as setas direita e esquerda para navegar</div>
 	
 	<div id="impress" class="impress-not-supported">
@@ -37,7 +37,7 @@
             <div id="agenda-explicacao" class="big extralight">Explicação Prática</div>
 		</div>
 	
-		<div id="agenda-2" class="step" data-x="2650" data-y="70" data-scale="1">
+		<div id="agenda-2" class="step" data-x="2650" data-y="60" data-scale="1">
 			<div id="agenda-simbologia" class="big bold">Simbologia</div>
 		</div>
 		
@@ -147,7 +147,7 @@
 			<div id="simbologia-titulo" class="big bold title">Simbologia</div>
 		</div>
 
-		<div id="simbologia-oval" class="step" data-x="165" data-y="720" data-scale=".48">
+		<div id="simbologia-oval" class="step" data-x="165" data-y="720" data-z="-500" data-scale=".48">
 			<div id="simbologia-oval-figura" class="simbolo oval">
                 <div class="simbolo circulo-inicio"></div>
                 <div class="simbolo circulo-fim"></div>
@@ -156,20 +156,20 @@
 			<div class="big extralight" id="simbologia-oval-definicao">Usado para indicar o início e o fim do fluxograma</div>
 		</div>
 		
-		<div id="simbologia-retangulo" class="step" data-x="690" data-y="720" data-scale=".48">
+		<div id="simbologia-retangulo" class="step" data-x="690" data-y="720" data-z="-1000" data-scale=".48">
 			<div id="simbologia-retangulo-figura" class="simbolo retangulo"></div>
 			<div class="big bold" id="simbologia-retangulo-titulo">Operação</div>
 			<div class="big extralight" id="simbologia-retangulo-definicao">Representa uma determinada ação</div>
 		</div>
 		
-		<div id="simbologia-losango" class="step" data-x="165" data-y="950" data-scale=".48">
+		<div id="simbologia-losango" class="step" data-x="165" data-y="950" data-z="-1500" data-scale=".48">
             <div id="simbologia-losango-figura" class="simbolo losango"></div>
 			<div class="big bold" id="simbologia-losango-titulo">Decisão</div>
 			<div class="big extralight" id="simbologia-losango-definicao">Indica uma questão que necessariamente</div>
             <div class="big extralight" id="simbologia-losango-definicao">tem duas respostas/saídas: <b class="bold">sim</b> ou <b class="bold">não</b></div>
 		</div>
 		
-		<div id="simbologia-linha" class="step" data-x="690" data-y="950" data-scale=".48">
+		<div id="simbologia-linha" class="step" data-x="690" data-y="950" data-z="-2000" data-scale=".48">
 			<div id="simbologia-linha-figura" class="linha">
                 <div class="seta seta-dir"></div>
             </div>
@@ -180,137 +180,109 @@
 		<div id="exemplo" class="step" data-x="1520" data-y="500" data-scale="1">
 			<div class="big bold">Exemplo</div>
 		</div>
-		<!--
-		<div id="how-quote" class="step" data-x="1520" data-y="1165" data-scale="1">
-			<blockquote>&ldquo;Stop Thinking in Pages.<br /> Start Thinking in Systems.&rdquo;
-			<span class="author">- Jeremy Keith</span></blockquote>
+
+        <div id="exemplo-titulo" class="step" data-x="1520" data-y="610" data-scale="1">
+			<div class="big extralight">Processo de Teste de Sistema</div>
 		</div>
+
+        <div id="exemplo-diagrama" class="step" data-x="1520" data-y="935" data-z="-1000" data-scale="1">
+            <section id="exemplo-time-desenvolvimento">
+                <h2 class="big light">Time de Desenvolvimento</h2>
+
+                <br clear="all" />
+
+                <div id="exemplo-diagrama-inicio" class="simbolo oval">
+                    <p>Início</p>
+                    <div class="simbolo circulo-inicio"></div>
+                    <div class="simbolo circulo-fim"></div>
+                </div>
+
+                <div class="linha1 linha">
+                    <div class="seta seta-baixo"></div>
+                </div>
+
+                <div id="exemplo-requisicao-teste" class="simbolo retangulo">
+                    <p>Requisitar Teste</p>
+                </div>
+
+                <div class="linha2 linha">
+                    <div class="seta seta-dir"></div>
+                </div>
+
+                <div id="exemplo-release-aprovado" class="simbolo losango">
+                    <p>Release Aprovado?</p>
+                </div>
+
+                <div class="linha7 linha">
+                    <p>Sim</p>
+                    <div class="seta seta-dir"></div>
+                </div>
+
+                <div class="linha8 linha">
+                    <p>Não</p>
+                    <div class="seta seta-baixo"></div>
+                </div>
+
+                <div id="exemplo-corrigir-defeitos" class="simbolo retangulo">
+                    <p>Corrigir Defeitos</p>
+                </div>
+                <div class="linha9 linha"></div>
+                <div class="linha10 linha"></div>
+                <div class="linha11 linha">
+                    <div class="seta seta-dir"></div>
+                </div>
+            </section>
+            <section id="exemplo-time-teste">
+                <h2 class="big light">Time de Teste</h2>
+
+                <br clear="all" />
+
+                <div id="exemplo-ciclo-execucao" class="simbolo retangulo">
+                    <p>Criar Ciclo de Execução</p>
+                </div>           
+                <div class="linha3 linha">
+                    <div class="seta seta-baixo"></div>
+                </div>
+                <div id="exemplo-executar-teste" class="simbolo retangulo">
+                    <p>Executar Teste</p>
+                </div>            
+                <div class="linha4 linha">
+                    <div class="seta seta-baixo"></div>
+                </div>
+                <div id="exemplo-enviar-relatorio" class="simbolo retangulo">
+                    <p>Enviar Relatório</p>
+                </div>
+                <div class="linha5 linha"></div>
+                <div class="linha6 linha">
+                    <div class="seta seta-baixo"></div>
+                </div>
+            </section>
+            <section id="exemplo-time-configuracao">
+                <h2 class="big light">Time de Configuração</h2>
+
+                <br clear="all" />
+
+                <div id="exemplo-integrar-release" class="simbolo retangulo">
+                    <p>Integrar Release</p>
+                </div>
+                <div class="linha12 linha">
+                    <div class="seta seta-baixo"></div>
+                </div>
+                <div id="exemplo-diagrama-fim" class="simbolo oval">
+                    <p>Fim</p>
+                    <div class="simbolo circulo-inicio"></div>
+                    <div class="simbolo circulo-fim"></div>
+                </div>
+            </section>            
+        </div>
 		
-		<div id="how-frameworks" class="step" data-x="1520" data-y="1480" data-scale="1">
-			<div>
-				<div class="big bold" id="how-frameworks-text">Frameworks</div>
-				<div class="big extralight" id="how-savetime">(Save Time)</div>
-				<span>or</span>
-				<div class="big bold" id="how-rollyourown">Roll Your Own</div>
-				<div class="big extralight" id="how-control">(More Control)</div>
-			</div>
-		</div>
-		
-		<div id="how-best" class="step" data-x="1520" data-y="1780" data-scale="1">
-			<div class="big bold">Best Practices</div>
-		</div>
-		
-		<div id="how-best1" class="step" data-x="1520" data-y="1880" data-scale="1">
-			<div class="big light">Content Check</div>
-		</div>
-		
-		<div id="how-best2" class="step" data-x="1520" data-y="2045" data-scale="1">
-			<div class="big light" id="how-best2-small">Start Small</div>
-			<div class="big light">Mobile First</div>
-		</div>
-		
-		<div id="how-best3" class="step" data-x="1520" data-y="2255" data-scale="1">
-			<div class="big light" id="how-best3-exit">Exit Photoshop</div>
-			<div class="big light">Enter Browser</div>
-		</div>
-		
-		<div id="how-best4" class="step" data-x="1520" data-y="2395" data-scale="1">
-			<div class="big light">Think Modular</div>
-		</div>
-		
-		<div id="how-best5" class="step" data-x="1520" data-y="2475" data-scale="1">
-			<div class="big light">Always Be Optimizing</div>
-		</div>
-		
-		<div id="how-best6" class="step" data-x="1520" data-y="2540" data-scale="1">
-			<div class="big extralight">*Best practices still emerging</div>
-		</div>
-		
-		<div id="where" class="step" data-x="2580" data-y="500" data-scale="1">
-			<div class="big bold title">Where?</div>
-		</div>
-		
-		<div class="step where-step" data-x="2580" data-y="1350" data-scale="1">
-			<div class="big" id="where-leaders">Leaders</div>
-			<div class="big extralight" id="where-leader-em">
-				<a href="http://unstoppablerobotninja.com">Ethan Marcotte</a>
-			</div>
-			<div class="big extralight" id="where-leader-lw">
-				<a href="http://www.lukew.com/ff/">Luke Wroblewski</a>
-			</div>
-			<div class="big extralight" id="where-leader-sj">
-				<a href="http://scottjehl.com">Scott <span class="adj-j">J</span>ehl</a>
-			</div>
-			<div class="big extralight" id="where-leader-jk">
-				<a href="http://adactio.com/articles/"><span class="adj-j">J</span>eremy Keith</a>
-			</div>
-			<div class="big extralight" id="where-leader-cc">
-				<a href="http://css-tricks.com">Chris Coyier</a>
-			</div>
-		</div>
-		
-		<div class="step where-step" data-x="2580" data-y="1980" data-scale="1">
-			<div id="where-learn" class="big">Learn It</div>
-			<div class="big extralight" id="where-learn-t">
-				<a href="http://teamtreehouse.com/library/design-foundations/rwd-foundations">Treehouse</a>
-			</div>
-			<div class="big extralight" id="where-learn-ala">
-				<a href="http://www.alistapart.com/articles/responsive-web-design/">A List Apart</a>
-			</div>
-			<div class="big extralight" id="where-learn-tp">
-				<a href="http://webdesign.tutsplus.com/articles/design-theory/designing-for-a-responsive-web/">webdesign tuts+</a>
-			</div>
-			<div class="big extralight" id="where-learn-rn">
-				<a href="http://blog.responsivenews.co.uk">Responsive News</a>
-			</div>
-		</div>
-		
-		<div class="step where-step" id="where-cool" data-x="2580" data-y="2610" data-scale="1">
-			<div class="big" id="where-cool-title">Cool Stuff</div>
-			<div class="big extralight" id="where-cool-b">
-				<a href="http://bootstrap.io">Bootstrap</a>
-			</div>
-			<div class="big extralight" id="where-cool-g">
-				<a href="http://goldilocksapproach.com">Goldilocks</a>
-			</div>
-			<div class="big extralight" id="where-cool-f">
-				<a href="http://foundation.zurb.com">Foundation</a>
-			</div>
-			<div class="big extralight" id="where-cool-s">
-				<a href="http://www.getskeleton.com/">Skeleton</a>
-			</div>
-		</div>
-		
-		<div class="step where-step" id="where-cool2" data-x="2580" data-y="3190" data-scale="1">
-			<div class="big" id="where-cool-title2">More Cool Stuff</div>
-			<div class="big extralight" id="where-cool-r">
-				<a href="http://responsejs.com">response.<span class="adj-j">j</span>s</a>
-			</div>
-			<div class="big extralight" id="where-cool-fit">
-				<a href="http://fittextjs.com">FitText</a> <a href="http://fitvidsjs.com/">FitVids</a>
-			</div>
-			<div class="big extralight" id="where-cool-fi">
-				<a href="http://unstoppablerobotninja.com/entry/fluid-images/">Fluid Images</a>
-			</div>
-			<div class="big extralight" id="where-cool-bp">
-				<a href="http://xoxco.com/projects/code/breakpoints/">Breakpoints.<span class="adj-j">j</span>s</a>
-			</div>
-			<div class="big extralight" id="where-cool-sz">
-				<a href="http://rezitech.github.com/syze/">syze</a><a href="http://speckyboy.com/2011/11/17/15-responsive-css-frameworks-worth-considering/">... and plenty more</a>
-			</div>
-		</div>
-		
-		<div class="step" id="credits" data-x="4000" data-y="0" data-rotate="-90" data-rotate-y="90" data-scale=".1">
-			<div class="big bold">Credits</div>
-			<p class="first">an <a href="http://bartaz.github.com/impress.js/">impress.js</a> presentation by <a href="http://twitter.com/johnpolacek">John Polacek</a></p>
-			<p>Responsive Web Design Graphic by <a href="http://bakkenbaeck.com">Bakken &amp; Baeck</a></p>
-			<p>Responsive Web Design Book published by <a href="http://www.abookapart.com">A Book Apart</a></p>
-			<p>Jeremy Keith quote from <a href="http://5by5.tv/webahead">The Web Ahead Podcast</a></p>
-			<p>Jeff Veen quote from a review of <a href="http://www.abookapart.com/products/responsive-web-design">&rsquo;Responsive Web Design&lsquo;</a></p>
+		<div class="step" id="credits" data-x="1520" data-y="1635" data-z="-500" data-rotate-x="90" data-scale="1">
+			<div class="big bold">Creditos</div>
+			<p class="first">uma apresentação feita em <a href="http://bartaz.github.com/impress.js/">impress.js</a> por <a href="http://twitter.com/danilojrr">@DaniloJrr</a></p>
+			<p>Design Gráfico por <a href="http://bakkenbaeck.com">Bakken &amp; Baeck</a></p>
 			<p><a href="http://www.google.com/webfonts/specimen/Open+Sans">Open Sans Font</a> by <a href="https://profiles.google.com/107777320916704234605/about">Steve Matteson</a></p>
 			<p><a href="http://bartaz.github.com/impress.js/">impress.js</a> created by <a href="http://bartaz.github.com/">Bartek Szopka</a></p>
 		</div>
-		-->
 	</div>
 	
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
