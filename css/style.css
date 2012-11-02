@@ -150,8 +150,8 @@ blockquote .author {
 
 #agenda-definicao { font-size: 174px; }
 #agenda-explicacao { font-size: 83px; }
-#agenda-simbologia { font-size: 145px; }
-#agenda-exemplo { font-size: 218px; }
+#agenda-simbologia { font-size: 140px; }
+#agenda-exemplo { font-size: 221px; }
 
 #definicao-que {font-size: 202px;}
 
@@ -169,7 +169,7 @@ blockquote .author {
 #pronto-hein { margin-top: 50px; font-size: 94px; }
 
 #como-forma { font-size: 69px; padding-bottom: 10px; position: relative; left: 3px; }
-#como-pratica { font-size: 181px; margin-top: 10px; }
+#como-pratica { font-size: 162px; margin-top: 10px; }
 
 #explicacao { height: 600px; }
 .explicacao-text { position: absolute; width: 960px; top: 50px; text-align: center; opacity: 0; }
@@ -277,11 +277,11 @@ blockquote .author {
 #exemplo-diagrama .linha1 {border-left-style:solid; min-width:0; height:29px; left:162px; top:100px;}
 #exemplo-diagrama .linha1 .seta {left: -5.5px;}
 #exemplo-requisicao-teste {left: 98px;top: 132px;}
-#exemplo-diagrama .linha2 {border-top-style: solid; width: 180px; left: 226px;top: 151px;}
+#exemplo-diagrama .linha2 {border-top-style: solid; width: 167px; left: 226px;top: 151px;}
 #exemplo-diagrama .linha2 .seta {top: -5.5px;}
 #exemplo-release-aprovado {height: 80px;left: 123px;top: 386px;}
 #exemplo-release-aprovado p {top: 23px;left: -3px;}
-#exemplo-diagrama .linha7 {width: 538px; height: 0; left: 219px; top: 425px; border-top-style: solid;}
+#exemplo-diagrama .linha7 {width: 511px; height: 0; left: 219px; top: 425px; border-top-style: solid;}
 #exemplo-diagrama .linha7 .seta {top: -5.8px;}
 #exemplo-diagrama .linha7 p {left: 261px; top: -25px;}
 #exemplo-diagrama .linha8 {min-width: 0;height: 42px;left: 162px;top: 483px;border-left-style: solid;}
